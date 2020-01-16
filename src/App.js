@@ -1,15 +1,14 @@
 import React from "react";
-import "./scss/main.scss";
-import Header from "./Components/Header";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Footer from "./Components/Footer";
-
+import PhotoGrid from "./Components/PhotoGrid";
+import Header from "./Components/Header";
 function App() {
   return (
-    <Router>
+    <>
       <Header />
+      <PhotoGrid />
       <Footer />
-    </Router>
+    </>
   );
 }
 
